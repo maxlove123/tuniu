@@ -320,19 +320,6 @@ img{border:0;display: block;}
     background-size: cover;
    
 }
-/*.addtion_menu a.phone, .tn_search .sc_name span, .tn_search_box .tn_s_button button, .prod_lists .prod_slides .ps_tt a, .allsort .mt b {
-    background: url(../imges/nav_bg.png) no-repeat;
-    background-image: url(../imges/nav_bg.png);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-}*/
 .tn_search_box .tn_s_input, .tn_search_box .tn_s_button, .tn_search_box .tn_s_select {
     float: left;
     cursor: pointer;
@@ -587,7 +574,7 @@ img{border:0;display: block;}
 }
 /*内容区*/
 .content{
-	height:206px;
+
 	width: 1190px;
 	/*background:red;*/
 	margin: 0 auto;
@@ -1214,3 +1201,198 @@ margin-top: 5px;
 .box_inner1 {
     padding-bottom: 10px;
 }
+.aside_widget {
+    background-color: #f6f6f6 !important;
+    width: 205px;
+    padding: 15px 10px 10px 10px;
+    font-size: 12px;
+    color: #333;
+    position: relative;
+}
+.aside_widget h4 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "microsoft yahei";
+    line-height: 1;
+    position: relative;
+}
+.aside_widget h4 .actions {
+	position: absolute;
+    font-size: 12px;
+    top: 4px;
+    right: 0;
+    font-weight: normal;
+    color: #666;
+    width: 60px;
+    height: 20px;
+  
+}
+.icon_btn_left {
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../imges/index_icon.png) 0 -36px no-repeat;
+}
+.icon_btn_right {
+	display: inline-block;
+	
+    width: 16px;
+    height: 16px;
+    background: url(../imges/index_icon.png) -20px -36px no-repeat;
+}
+.your_footprint .widget_content {
+    max-height: 302px;
+    height: auto;
+    width: 205px;
+    background: url(../imges/footprint_bg.png) no-repeat 6px 0;
+    padding-top: 12px;
+    _height: 302px;
+        overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+.aside_widget .widget_item {
+    background: #fff;
+    padding: 0px;
+    padding-left: 2px;
+    height: 60px;
+    margin-bottom: 21px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.widget_product_item img {
+    float: right;
+    margin-left: 10px;
+    width: 57px;
+    height: 57px;
+}
+.widget_product_item .title{
+	width: 203px;
+	height: 36px;
+}
+.widget_product_item .title a {
+    color: #999;
+    display: block;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 2px;
+    width: 136px;
+    float: left;
+   
+}
+.widget_product_item .title a em {
+    display: block;
+    color: #333; 
+    font-size: 12px;
+    line-height: 18px;
+}
+.widget_product_item .price {
+    color: #f60;
+    line-height: 1;
+   padding-top: 5px;
+    font-family: "microsoft yahei";
+}
+.jinrong_piclink{
+width: 225px;
+	height: 75px;	
+}
+.jinrong_piclink img{
+	width: 225px;
+	height: 75px;
+}
+.layer_body .title1{
+	height: 30px;
+}
+.layer_body .title1 li{
+	float: left;
+	margin-right: 20px;
+}
+#pro_item1{
+	padding-top: 0px;
+}
+#img11{
+	height: 308px;
+}
+/*旅游局botton开始*/
+.main_inner {
+    width: 1190px;
+    margin: 0 auto;
+}
+.tourism_tit {
+    position: relative;
+}
+.tourism_box h3 {
+    font-size: 20px;
+    color: #333;
+    font-family: "microsoft yahei";
+    height: 40px;
+    line-height: 40px;
+}
+.tourism_box .more_lyj {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.tourism_wrap {
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid #666;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.tourism_wrap_inner {
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+.tourism_box .tourism_list li {
+    float: left;
+    width: 130px;
+    height: 90px;
+    text-align: center;
+}
+.tourism_box .tourism_list li img {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+}
+.tourism_box .tourism_list li a{
+	font-size: 12px;
+}
+/*旅游局botton结束*/
+/*阳光保证开始*/
+.offer_service {
+    height: 70px;
+    margin-top: 30px;
+}
+.inner_service {
+    width: 1190px;
+    height: 70px;
+    margin: 0 auto;
+ 
+}
+.offer_service .inner_service li {
+    float: left;
+    width: 110px;
+    text-align: center;
+    color: #333;
+    margin-right: 0;
+    padding: 0  10px;
+}
+.offer_service .iconfont_guarantee {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 28px;
+    font-size: 28px;
+    color: #fff;
+    background: url(../imges/common_foot.png) no-repeat 0 -59px;
+}
+.offer_service .inner_service li p {
+    margin-top: 4px;
+    float: none;
+}
+/*阳光保证结束*/
