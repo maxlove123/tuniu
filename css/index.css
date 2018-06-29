@@ -1333,6 +1333,13 @@ width: 225px;
     position: absolute;
     top: 12px;
     right: 0;
+    color: #999;
+    font-size: 12px;
+}
+.tourism_box .more_lyj a{
+  
+    color: #999;
+    font-size: 12px;
 }
 .tourism_wrap {
     height: 160px;
@@ -1381,6 +1388,7 @@ width: 225px;
     color: #333;
     margin-right: 0;
     padding: 0  10px;
+    font-size: 12px;
 }
 .offer_service .iconfont_guarantee {
     display: inline-block;
@@ -1396,3 +1404,292 @@ width: 225px;
     float: none;
 }
 /*阳光保证结束*/
+/*faq开始*/
+.faq_wrap{
+	width: 100%;
+	height: 155px;
+	background: #11A13A;
+	border-bottom: 1px solid #d8d8d8;
+}
+.faq_inner{
+	width: 1190px;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+    padding-left: 60px;
+
+
+}
+.faq_inner dl{
+	padding-right: 50px;
+    padding: 0 20px 0 0;
+    line-height: 24px;
+    float: left;
+    border-left: 1px #e4e4e4 solid;
+    }
+.faq_wrap .faq_inner dt {
+    height: 24px;
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+}
+.faq_wrap .faq_inner dd{
+	color: #999999;
+	font-size: 12px;
+}
+.faq_wrap .faq_inner dl.tiexin_serv {
+    width: 260px;
+    float: right;
+    padding: 0;
+    position: relative;
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+.faq_wrap .tiexin_serv .tiexin_title {
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    background-position: -211px -2px;
+    background: url(../imges/common_foot.png)  -211px 0px no-repeat;
+}
+.faq_wrap .tiexin_serv .serv_car {
+    width: 96px;
+    height: 66px;
+    display: block;
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    background: url(http://img3.tuniucdn.com/img/20141125/index_v3/serv_24.png) no-repeat 0 0;
+}
+/*faq结束*/
+/*trv_serv*/
+.trav_sev{
+	width: 100%;
+	background: #F5F5F5;
+	padding: 20px 0;
+}
+.ts_box {
+	width: 990px;
+	margin: 0 auto;
+}
+.ts_box li {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    border-right: 1px dotted #d8d8d8;
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.ts_box .trav_l_first{
+	width: 250px;
+}
+.ts_box li i {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-position: 0 0;
+    overflow: hidden;
+    float: left;
+    background: url(../imges/common_foot_2.png) no-repeat 0 0;
+}
+.ts_box li .trav_l {
+    margin-left: 45px;
+    width: 140px;
+}
+.ts_box li .trav_l  .tl_tt {
+
+    width: auto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.ts_box li .trav_l  .tl_tt a {
+    color: #666;
+    font-weight: bold;
+}
+dd.tl_w{
+	width: 240px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+dd.tl_w a {
+    display: inline-block;
+    color: #999;
+   margin-right: 25px;
+}
+.ts_box  img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+}
+ .ts_box .ts_5{
+	 background-position: -160px 0;
+}
+ .ts_box .ts_4{
+	 background-position: -120px 0;
+}
+ .ts_box .ts_3{
+	 background-position: -80px 0;
+}
+ .ts_box .ts_2{
+	 background-position: -40px 0;
+}
+/*trv_serv结束*/
+/*three_trav开始*/
+.three_trav{
+	width: 100%;
+	background: #60ca6e;
+}
+.thr_trav {
+    background: url(../imges/thr_sun.jpg) no-repeat 0 0;
+    width: 990px;
+    height: 62px;
+    margin: 0 auto;
+    position: relative;
+}
+.thr_trav .tn_text {
+    color: #fff;
+    font: normal 12px/20px arial,sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 32px;
+    opacity: 0.8;
+}
+.thr_trav .tn_phone {
+    color: #fff;
+    font: normal bold 20px/32px arial,sans-serif;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
+/*three_trav结束*/
+/*fourImgs*/
+.fourImgs{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.fourImgs li {
+    float: left;
+    width: 238px;
+    height: 58px;
+    border: 1px solid #d8d8d8;
+    margin-right: 10px;
+}
+/*fourImgs*/
+/*img_place*/
+.img_place {
+    width: 1000px;
+    margin: 10px auto 0;
+
+}
+/*img_place*/
+/*tn_footer*/
+/*tn_footer*/
+.tn_footer {
+    color: #777;
+    line-height: 1.9;
+    margin: 10px auto 10px;
+    width: 1000px;
+    font-size: 12px;
+}
+#TN-24, #TN-links {
+    line-height: 1.9;
+}
+.tn_footer p {
+    line-height: 1.9;
+    text-align: center;
+}
+.tn_footer a{
+	color: #777;
+}
+#TN-links a {
+    margin: 0 5px;
+}
+.thr_img {
+    width: 580px;
+   
+    overflow: hidden;
+    margin: 10px auto 0;
+	padding-left: 60px;
+}
+.thr_img li img{
+	width: 175px;
+	height: 38px;
+}
+.thr_img li {
+    width: 175px;
+    margin-right: 10px;
+    border: 1px solid #d8d8d8;
+    float: left;
+}
+.slide_order {
+    color: #999;
+    margin: 5px 0 0 0;
+}
+.slide_order span {
+    width: 60px;
+}
+.slide_order span, .slide_order ul {
+    float: left;
+    display: block;
+    height: 22px;
+    overflow: hidden;
+}
+.w_940 {
+    width: 940px;
+    overflow: hidden;
+    position: relative;
+    height: 22px;
+}
+.tn_footer .trav_corp {
+padding-left: 20px;
+    margin: 10px 0 0 0;
+    height: 47px;
+    
+}
+.tn_footer img {
+    display: inline;
+    width: 113px;
+    height: 41px;
+}
+/*footlink*/
+.footer_link {
+	padding-left: 100px;
+	padding-right: 100px;
+    width: 1000px;
+    margin:  0 auto;
+    padding: 10px 0px 3px 0px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #e7e7e7;
+}
+.footer_link dt{
+
+	float:left;
+	margin-right: 10px;
+	
+}
+.footer_link dd{
+    width: 912px;
+    float: left;
+    padding-bottom: 8px;
+}
+
+.footer_link a {
+    margin-right: 5px;
+    _margin-right: 2px;
+	color: #999;
+    
+}
+.link_more{
+	float: right;
+	color: #999;
+}
+/*footlink*/
